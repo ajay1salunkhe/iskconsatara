@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>इस्कॉन सातारा - श्री श्री राधा कृष्ण मंदिर</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fullscreen Landing Section -->
+    <section class="landing-screen" id="landing">
+        <div class="landing-image">
+            <img src="images/landing-bg.jpg" alt="इस्कॉन सातारा" onerror="this.src='https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1920&h=1080&fit=crop'">
+        </div>
+        <div class="landing-overlay">
+            <div class="landing-content">
+                <h1 class="fade-in">इस्कॉन सातारा</h1>
+                <p class="fade-in-delay">श्री श्री राधा कृष्ण मंदिर</p>
+                <p class="subtitle fade-in-delay-2">हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे<br>हरे राम हरे राम राम राम हरे हरे</p>
+                <button class="enter-btn fade-in-delay-3" onclick="enterSite()">मंदिरात प्रवेश करा</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Website -->
+    <div id="mainSite" class="main-site hidden">
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <h1>इस्कॉन सातारा</h1>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home">मुख्यपृष्ठ</a></li>
+                        <li><a href="#about">आमच्याबद्दल</a></li>
+                        <li><a href="#darshan">दर्शन</a></li>
+                        <li><a href="#festivals">उत्सव</a></li>
+                        <li><a href="#events">कार्यक्रम</a></li>
+                        <li><a href="#activities">उपक्रम</a></li>
+                        <li><a href="#giftshop">गिफ्ट शॉप</a></li>
+                        <li><a href="#donation">दान</a></li>
+                        <li><a href="#contact">संपर्क</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section with Image -->
+        <section class="hero" id="home">
+            <div class="hero-image">
+                <img src="images/hero-bg.jpg" alt="इस्कॉन सातारा" onerror="this.src='https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1920&h=600&fit=crop'">
+            </div>
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>इस्कॉन सातारा येथे आपले स्वागत आहे</h1>
+                    <p>दिव्य आतिथ्य आणि आध्यात्मिक ज्ञानाचा अनुभव घ्या</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Daily Quote -->
+        <section class="daily-quote">
+            <div class="container">
+                <div class="quote-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p id="quoteText">जो कोणी ईर्ष्या न करता सर्व प्राण्यांचा मित्र आहे, जो स्वतःला मालक समजत नाही आणि खोट्या अहंकारापासून मुक्त आहे, जो सुख आणि दुःख दोन्हीमध्ये समान आहे, जो सहनशील आहे, नेहमी समाधानी आहे, आत्म-नियंत्रित आहे आणि दृढनिश्चयाने भक्तीमध्ये गुंतलेला आहे - असा भक्त मला अत्यंत प्रिय आहे.</p>
+                    <span class="quote-source">- भगवद्गीता १२.१३-१४</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>आमच्याबद्दल</h2>
+                </div>
+                <div class="about-content">
+                    <p>इस्कॉन (इंटरनॅशनल सोसायटी फॉर कृष्णा कॉन्शसनेस) सातारा हे भगवद्गीता आणि श्रीमद्भागवतम यांच्या प्राचीन ज्ञानाचा प्रसार करण्यासाठी समर्पित आहे. परम पूज्य ए.सी. भक्तिवेदांत स्वामी प्रभुपाद यांच्या शिकवणुकीवर आधारित, आम्ही भगवान कृष्णाची उपासना आणि भक्तियोगाचा सराव करतो.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Darshan Schedule -->
+        <section class="darshan-schedule" id="darshan">
+            <div class="container">
+                <div class="section-header">
+                    <h2>दर्शन वेळापत्रक</h2>
+                </div>
+                <div class="schedule-grid">
+                    <div class="schedule-card">
+                        <div class="time">सकाळी ४:३० - ५:३०</div>
+                        <h3>मंगळा आरती</h3>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="time">सकाळी ७:३० - ८:००</div>
+                        <h3>श्रृंगार आरती आणि गुरु पूजा</h3>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="time">सकाळी ८:०० - ९:००</div>
+                        <h3>भागवतम प्रवचन</h3>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="time">दुपारी १२:३० - १:१०</div>
+                        <h3>राजभोग</h3>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="time">संध्याकाळी ७:०० - ८:००</div>
+                        <h3>गौर संध्या आरती</h3>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="time">रात्री ८:३० - ८:४५</div>
+                        <h3>शयन आरती</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Festivals Gallery -->
+        <section class="festivals" id="festivals">
+            <div class="container">
+                <div class="section-header">
+                    <h2>उत्सव</h2>
+                    <a href="festivals.html" class="view-all-link">सर्व उत्सव पहा <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/janmashtami.jpg" alt="जन्माष्टमी" onerror="this.src='https://images.unsplash.com/photo-1533727937480-da3a97967e95?w=600&h=400&fit=crop'">
+                        <div class="gallery-overlay">
+                            <h3>श्री कृष्ण जन्माष्टमी</h3>
+                            <p>ऑगस्ट २०२६</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gaura-purnima.jpg" alt="गौर पूर्णिमा" onerror="this.src='https://images.unsplash.com/photo-1604608672516-f1b9b1a0b3f1?w=600&h=400&fit=crop'">
+                        <div class="gallery-overlay">
+                            <h3>गौर पूर्णिमा</h3>
+                            <p>मार्च २०२६</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/rathyatra.jpg" alt="रथयात्रा" onerror="this.src='https://images.unsplash.com/photo-1548013146-72479768bada?w=600&h=400&fit=crop'">
+                        <div class="gallery-overlay">
+                            <h3>रथयात्रा</h3>
+                            <p>जुलै २०२६</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/radhashtami.jpg" alt="राधाष्टमी" onerror="this.src='https://images.unsplash.com/photo-1609220136736-443140cffec6?w=600&h=400&fit=crop'">
+                        <div class="gallery-overlay">
+                            <h3>राधाष्टमी</h3>
+                            <p>सप्टेंबर २०२६</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/diwali.jpg" alt="दिवाळी" onerror="this.src='https://images.unsplash.com/photo-1605379399642-870262d3d051?w=600&h=400&fit=crop'">
+                        <div class="gallery-overlay">
+                            <h3>दिवाळी</h3>
+                            <p>नोव्हेंबर २०२६</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/govardhan-puja.jpg" alt="गोवर्धन पूजा" onerror="this.src='https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&h=400&fit=crop'">
+                        <div class="gallery-overlay">
+                            <h3>गोवर्धन पूजा</h3>
+                            <p>नोव्हेंबर २०२६</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section class="events" id="events">
+            <div class="container">
+                <div class="section-header">
+                    <h2>आगामी कार्यक्रम</h2>
+                    <a href="events.html" class="view-all-link">सर्व कार्यक्रम पहा <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="events-list">
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">१५</span>
+                            <span class="month">मार्च</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>भगवद्गीता प्रवचन</h3>
+                            <p><i class="far fa-clock"></i> संध्याकाळी ६:०० - ८:००</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">२२</span>
+                            <span class="month">मार्च</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>कीर्तन संध्या</h3>
+                            <p><i class="far fa-clock"></i> संध्याकाळी ७:०० - ९:००</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">२९</span>
+                            <span class="month">मार्च</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>रविवार भोजन</h3>
+                            <p><i class="far fa-clock"></i> संध्याकाळी ५:०० - ८:००</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities -->
+        <section class="activities" id="activities">
+            <div class="container">
+                <div class="section-header">
+                    <h2>आमचे उपक्रम</h2>
+                    <a href="activities.html" class="view-all-link">सर्व उपक्रम पहा <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <i class="fas fa-male"></i>
+                        <h3>प्रेरणा (मुलांसाठी)</h3>
+                        <p>मुलांसाठी आध्यात्मिक शिक्षण आणि व्यक्तिमत्व विकास कार्यक्रम</p>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-female"></i>
+                        <h3>चेतना (मुलींसाठी)</h3>
+                        <p>मुलींसाठी आध्यात्मिक शिक्षण आणि व्यक्तिमत्व विकास कार्यक्रम</p>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-book-open"></i>
+                        <h3>भक्ती अभ्यासक्रम</h3>
+                        <p>भगवद्गीता आणि वैदिक शास्त्रांचा सखोल अभ्यास</p>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-utensils"></i>
+                        <h3>अन्नदान</h3>
+                        <p>गरजूंना दररोज प्रसादाचे वाटप</p>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-music"></i>
+                        <h3>कीर्तन आणि भजन</h3>
+                        <p>नियमित भक्ती संगीत कार्यक्रम</p>
+                    </div>
+                    <div class="activity-card">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>समाजसेवा</h3>
+                        <p>विविध धर्मादाय उपक्रम</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- YouTube Videos -->
+        <section class="videos">
+            <div class="container">
+                <div class="section-header">
+                    <h2>व्हिडिओ</h2>
+                </div>
+                <div class="videos-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <h3>भगवद्गीता प्रवचन</h3>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <h3>कीर्तन कार्यक्रम</h3>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <h3>उत्सव साजरा</h3>
+                    </div>
+                </div>
+                <div class="live-program">
+                    <h3><i class="fas fa-circle live-indicator"></i> थेट प्रसारण</h3>
+                    <p>दर रविवारी संध्याकाळी ५:०० वाजता आमच्या थेट प्रसारणात सामील व्हा</p>
+                    <a href="#" class="btn btn-primary">थेट पहा</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gift Shop Highlight -->
+        <section class="giftshop-highlight" id="giftshop">
+            <div class="container">
+                <div class="section-header">
+                    <h2>गिफ्ट शॉप</h2>
+                    <a href="giftshop.html" class="view-all-link">सर्व उत्पादने पहा <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="giftshop-intro">
+                    <p>आध्यात्मिक पुस्तके, देवता मूर्ती, पूजा साहित्य आणि भक्ती उत्पादने</p>
+                </div>
+                <div class="giftshop-categories">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>पुस्तके</h3>
+                        <p>भगवद्गीता, श्रीमद्भागवतम आणि इतर वैदिक साहित्य</p>
+                        <span class="price-range">₹100 - ₹5,000</span>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-om"></i>
+                        </div>
+                        <h3>देवता मूर्ती</h3>
+                        <p>राधा कृष्ण, गौर निताई, जगन्नाथ मूर्ती</p>
+                        <span class="price-range">₹600 - ₹2,000</span>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-hands-praying"></i>
+                        </div>
+                        <h3>पूजा साहित्य</h3>
+                        <p>जप माळा, अगरबत्ती, पूजा थाळी, दिवे</p>
+                        <span class="price-range">₹50 - ₹500</span>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <h3>वस्त्रे</h3>
+                        <p>धोतर, कुर्ता, साडी, तिलक</p>
+                        <span class="price-range">₹100 - ₹800</span>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <h3>संगीत आणि मीडिया</h3>
+                        <p>कीर्तन CD/DVD, हार्मोनियम, करताळ</p>
+                        <span class="price-range">₹150 - ₹10,000</span>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h3>भेटवस्तू</h3>
+                        <p>वॉल हँगिंग, कॅलेंडर, किचेन, गिफ्ट सेट</p>
+                        <span class="price-range">₹50 - ₹600</span>
+                    </div>
+                </div>
+                <div class="shop-info-banner">
+                    <div class="shop-info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>सकाळी ८:०० - रात्री ८:३०</span>
+                    </div>
+                    <div class="shop-info-item">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>सर्व दिवस खुले</span>
+                    </div>
+                    <div class="shop-info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+९१-XXXX-XXXXXX</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles -->
+        <section class="articles">
+            <div class="container">
+                <div class="section-header">
+                    <h2>लेख</h2>
+                    <a href="articles.html" class="view-all-link">सर्व लेख पहा <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <img src="images/article1.jpg" alt="लेख" onerror="this.src='https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&h=400&fit=crop'">
+                        <div class="article-content">
+                            <span class="category">तत्त्वज्ञान</span>
+                            <h3>आत्म्याला समजून घेणे</h3>
+                            <p>भगवद्गीतेत वर्णन केल्याप्रमाणे आत्म्याचे शाश्वत स्वरूप जाणून घ्या...</p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="images/article2.jpg" alt="लेख" onerror="this.src='https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop'">
+                        <div class="article-content">
+                            <span class="category">जीवनशैली</span>
+                            <h3>शाकाहाराचे फायदे</h3>
+                            <p>शाकाहारी जीवनशैलीचे आध्यात्मिक आणि आरोग्य फायदे शोधा...</p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="images/article3.jpg" alt="लेख" onerror="this.src='https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop'">
+                        <div class="article-content">
+                            <span class="category">साधना</span>
+                            <h3>जपाची शक्ती</h3>
+                            <p>हरे कृष्ण महामंत्राच्या परिवर्तनकारी शक्तीबद्दल जाणून घ्या...</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donation Section -->
+        <section class="donation" id="donation">
+            <div class="container">
+                <div class="section-header">
+                    <h2>दान</h2>
+                    <p>कृष्ण भावनामृताच्या प्रसारात योगदान द्या</p>
+                </div>
+                <div class="donation-grid">
+                    <div class="donation-card">
+                        <i class="fas fa-seedling"></i>
+                        <h3>फुलांचे प्रायोजन</h3>
+                        <p>दैनंदिन देवता पूजेसाठी ताजी फुले अर्पण करा</p>
+                        <button class="btn btn-primary">दान करा</button>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-bread-slice"></i>
+                        <h3>अन्नदान</h3>
+                        <p>भक्त आणि अभ्यागतांसाठी जेवणाचे प्रायोजन करा</p>
+                        <button class="btn btn-primary">दान करा</button>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-tshirt"></i>
+                        <h3>वस्त्रदान</h3>
+                        <p>देवता श्रृंगारासाठी वस्त्रे दान करा</p>
+                        <button class="btn btn-primary">दान करा</button>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-om"></i>
+                        <h3>देवता सेवा</h3>
+                        <p>दैनंदिन पूजा सेवांचे प्रायोजन करा</p>
+                        <button class="btn btn-primary">दान करा</button>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-building"></i>
+                        <h3>मंदिर बांधकाम</h3>
+                        <p>मंदिर विकासात योगदान द्या</p>
+                        <button class="btn btn-primary">दान करा</button>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>सामान्य दान</h3>
+                        <p>एकूण मंदिर क्रियाकलापांना समर्थन द्या</p>
+                        <button class="btn btn-primary">दान करा</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>संपर्क माहिती</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info-box">
+                        <h3>पत्ता</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> इस्कॉन सातारा<br>
+                        [मंदिराचा पत्ता]<br>
+                        सातारा, महाराष्ट्र, भारत</p>
+                        
+                        <h3>संपर्क</h3>
+                        <p><i class="fas fa-phone"></i> +९१-XXXX-XXXXXX</p>
+                        <p><i class="fas fa-envelope"></i> info@iskconsatara.org</p>
+                        
+                        <h3>मंदिर वेळ</h3>
+                        <p><i class="fas fa-clock"></i> सकाळी ४:३० - रात्री ९:००</p>
+                        <p>सर्व दिवस खुले</p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>संदेश पाठवा</h3>
+                        <form id="contactForm">
+                            <input type="text" placeholder="तुमचे नाव" required>
+                            <input type="email" placeholder="तुमचा ईमेल" required>
+                            <input type="tel" placeholder="फोन नंबर">
+                            <textarea placeholder="तुमचा संदेश" rows="5" required></textarea>
+                            <button type="submit" class="btn btn-primary">संदेश पाठवा</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.123456789!2d73.9876543!3d17.6789012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQwJzQ0LjAiTiA3M8KwNTknMTUuNiJF!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-col">
+                        <h3>इस्कॉन सातारा</h3>
+                        <p>भगवान कृष्णाच्या शिकवणीद्वारे प्रेम आणि भक्तीचा संदेश प्रसारित करणे</p>
+                    </div>
+                    <div class="footer-col">
+                        <h3>संपर्क</h3>
+                        <p><i class="fas fa-phone"></i> +९१-XXXX-XXXXXX</p>
+                        <p><i class="fas fa-envelope"></i> info@iskconsatara.org</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; २०२६ इस्कॉन सातारा. सर्व हक्क राखीव.</p>
+                    <p class="mantra">हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे | हरे राम हरे राम राम राम हरे हरे</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

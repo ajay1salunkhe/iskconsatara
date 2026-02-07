@@ -1,0 +1,71 @@
+IMAGE PLACEHOLDERS NEEDED FOR ISKCON SATARA WEBSITE (MARATHI)
+================================================================
+
+You can use these placeholder services or add your own images:
+
+1. LANDING SCREEN (Fullscreen)
+   - landing-bg.jpg (1920x1080) - Fullscreen landing page image
+
+2. HERO SECTION (After entering site)
+   - hero-bg.jpg (1920x600) - Hero banner image above daily quote
+
+3. ABOUT SECTION
+   - temple.jpg (800x600) - Temple building or main hall
+
+3. FESTIVALS
+   - janmashtami.jpg (600x400) - Krishna Janmashtami celebration
+   - gaura-purnima.jpg (600x400) - Gaura Purnima festival
+   - rathyatra.jpg (600x400) - Rath Yatra chariot festival
+
+4. SERVICES
+   - puja.jpg (600x400) - Puja ceremony
+   - counseling.jpg (600x400) - Spiritual counseling session
+   - prasadam.jpg (600x400) - Prasadam food
+
+5. GIFT SHOP
+   - bhagavad-gita.jpg (400x400) - Bhagavad Gita book
+   - japa-mala.jpg (400x400) - Japa mala beads
+   - deity.jpg (400x400) - Small deity murti
+   - incense.jpg (400x400) - Incense sticks
+
+6. ARTICLES
+   - article1.jpg (600x400) - Philosophy related
+   - article2.jpg (600x400) - Lifestyle related
+   - article3.jpg (600x400) - Practice related
+
+7. GALLERY (8 images)
+   - gallery1.jpg (800x600) - Deity Darshan
+   - gallery2.jpg (800x600) - Mangala Aarti
+   - gallery3.jpg (800x600) - Festival Celebration
+   - gallery4.jpg (800x600) - Kirtan Program
+   - gallery5.jpg (800x600) - Temple View
+   - gallery6.jpg (800x600) - Prasadam Distribution
+   - gallery7.jpg (800x600) - Sunday Feast
+   - gallery8.jpg (800x600) - Bhagavad Gita Class
+
+TEMPORARY SOLUTION:
+-------------------
+The website uses placeholder images from via.placeholder.com if images are not found.
+This allows you to see the layout immediately.
+
+TO ADD YOUR OWN IMAGES:
+-----------------------
+1. Take photos of your temple, deities, festivals, and activities
+2. Resize them to the recommended dimensions above
+3. Save them in the 'images' folder with the exact names listed
+4. Refresh the website to see your images
+
+RECOMMENDED IMAGE SOURCES:
+--------------------------
+- Your own temple photography
+- ISKCON official image libraries
+- Stock photos (ensure proper licensing)
+- Professional photographer for best results
+
+IMAGE GUIDELINES:
+-----------------
+- Use high-quality, well-lit photos
+- Ensure deities are photographed respectfully
+- Get proper permissions for people in photos
+- Optimize images for web (compress without losing quality)
+- Use JPG format for photos, PNG for graphics with transparency

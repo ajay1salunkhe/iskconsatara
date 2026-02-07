@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>समस्या निराकरण तपासणी / Test Fixes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #ff6b35;
+            margin-bottom: 20px;
+        }
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .test-section h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .test-item {
+            padding: 10px;
+            margin: 10px 0;
+            background: white;
+            border-left: 4px solid #4caf50;
+            border-radius: 3px;
+        }
+        .test-item.fail {
+            border-left-color: #f44336;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .status.pass {
+            background: #4caf50;
+            color: white;
+        }
+        .status.fail {
+            background: #f44336;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff6b35;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #c1272d;
+        }
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 3px;
+        }
+        .warning-box {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 समस्या निराकरण तपासणी</h1>
+        <p>Test Fixes Applied</p>
+
+        <div class="info-box">
+            <strong>📌 सूचना:</strong> या पृष्ठावर सर्व निराकरण तपासा. प्रत्येक लिंक उघडा आणि तपासा की ते योग्यरित्या काम करते का.
+        </div>
+
+        <!-- Test 1: Scrolling -->
+        <div class="test-section">
+            <h2>1. Scrolling Test</h2>
+            <p>नवीन पृष्ठांवर स्क्रोलिंग काम करते का तपासा:</p>
+            <div class="test-item">
+                <strong>Index Page:</strong>
+                <a href="index.html" class="btn">Test</a>
+                <span>Landing screen → Enter → Should scroll</span>
+            </div>
+            <div class="test-item">
+                <strong>Festivals Page:</strong>
+                <a href="festivals.html" class="btn">Test</a>
+                <span>Should scroll immediately</span>
+            </div>
+            <div class="test-item">
+                <strong>Events Page:</strong>
+                <a href="events.html" class="btn">Test</a>
+                <span>Should scroll immediately</span>
+            </div>
+            <div class="test-item">
+                <strong>Activities Page:</strong>
+                <a href="activities.html" class="btn">Test</a>
+                <span>Should scroll immediately</span>
+            </div>
+            <div class="test-item">
+                <strong>Articles Page:</strong>
+                <a href="articles.html" class="btn">Test</a>
+                <span>Should scroll immediately</span>
+            </div>
+        </div>
+
+        <!-- Test 2: Responsive -->
+        <div class="test-section">
+            <h2>2. Responsive Test</h2>
+            <p>मोबाइलवर योग्यरित्या दिसते का तपासा:</p>
+            <div class="info-box">
+                <strong>कसे तपासावे:</strong><br>
+                1. F12 दाबा (DevTools उघडा)<br>
+                2. Ctrl+Shift+M दाबा (Device toolbar)<br>
+                3. विविध screen sizes निवडा:<br>
+                   - iPhone SE (375px)<br>
+                   - iPad (768px)<br>
+                   - Desktop (1920px)
+            </div>
+            <div class="test-item">
+                <strong>Mobile (375px):</strong>
+                <span>Single column, readable text, working menu</span>
+            </div>
+            <div class="test-item">
+                <strong>Tablet (768px):</strong>
+                <span>Cards stack properly, images scale</span>
+            </div>
+            <div class="test-item">
+                <strong>Desktop (1920px):</strong>
+                <span>Multi-column layout, hover effects</span>
+            </div>
+        </div>
+
+        <!-- Test 3: Loader -->
+        <div class="test-section">
+            <h2>3. Loader Test</h2>
+            <p>ब्राउझर लोडर थांबतो का तपासा:</p>
+            <div class="warning-box">
+                <strong>⚠️ लक्षात ठेवा:</strong> Placeholder YouTube URLs आणि Google Maps यामुळे loader फिरू शकतो. हे सामान्य आहे. खरे URLs जोडल्यानंतर हे थांबेल.
+            </div>
+            <div class="test-item">
+                <strong>Index Page:</strong>
+                <a href="index.html" class="btn">Test</a>
+                <span>Check browser tab - loader should stop</span>
+            </div>
+            <div class="test-item">
+                <strong>Other Pages:</strong>
+                <span>Should load faster (no videos)</span>
+            </div>
+        </div>
+
+        <!-- Test 4: Navigation -->
+        <div class="test-section">
+            <h2>4. Navigation Test</h2>
+            <p>सर्व लिंक्स काम करतात का तपासा:</p>
+            <div class="test-item">
+                <strong>Header Menu:</strong>
+                <span>All menu items should work</span>
+            </div>
+            <div class="test-item">
+                <strong>"View All" Links:</strong>
+                <span>From homepage to dedicated pages</span>
+            </div>
+            <div class="test-item">
+                <strong>Article Links:</strong>
+                <a href="articles.html" class="btn">Test</a>
+                <span>Click any article → Full article page</span>
+            </div>
+            <div class="test-item">
+                <strong>Back Buttons:</strong>
+                <span>Should return to previous page</span>
+            </div>
+        </div>
+
+        <!-- Test 5: Filter -->
+        <div class="test-section">
+            <h2>5. Filter Test (Articles)</h2>
+            <p>लेख फिल्टर काम करते का तपासा:</p>
+            <div class="test-item">
+                <strong>Articles Page:</strong>
+                <a href="articles.html" class="btn">Test</a>
+                <span>Click filter buttons → Articles should filter</span>
+            </div>
+            <div class="info-box">
+                <strong>तपासा:</strong><br>
+                1. "सर्व लेख" - सर्व दिसावेत<br>
+                2. "तत्त्वज्ञान" - फक्त philosophy articles<br>
+                3. "जीवनशैली" - फक्त lifestyle articles<br>
+                4. इ.
+            </div>
+        </div>
+
+        <!-- Test 6: Mobile Menu -->
+        <div class="test-section">
+            <h2>6. Mobile Menu Test</h2>
+            <p>मोबाइल मेनू काम करतो का तपासा:</p>
+            <div class="info-box">
+                <strong>कसे तपासावे:</strong><br>
+                1. Browser window लहान करा (< 768px)<br>
+                2. Hamburger icon (☰) दिसावा<br>
+                3. Click करा → Menu उघडावा<br>
+                4. Menu item click करा → Menu बंद व्हावा
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div class="test-section">
+            <h2>✅ अपेक्षित परिणाम / Expected Results</h2>
+            <div class="test-item">
+                ✅ सर्व पृष्ठे scroll होतात
+            </div>
+            <div class="test-item">
+                ✅ मोबाइलवर योग्यरित्या दिसतात
+            </div>
+            <div class="test-item">
+                ✅ Navigation काम करते
+            </div>
+            <div class="test-item">
+                ✅ Filter काम करते
+            </div>
+            <div class="test-item">
+                ✅ Mobile menu काम करतो
+            </div>
+            <div class="test-item">
+                ⚠️ Loader - खरे URLs जोडल्यानंतर ठीक होईल
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="test-section">
+            <h2>🔗 Quick Links</h2>
+            <a href="index.html" class="btn">मुख्यपृष्ठ</a>
+            <a href="festivals.html" class="btn">उत्सव</a>
+            <a href="events.html" class="btn">कार्यक्रम</a>
+            <a href="activities.html" class="btn">उपक्रम</a>
+            <a href="articles.html" class="btn">लेख</a>
+            <a href="article-atma.html" class="btn">नमुना लेख</a>
+        </div>
+
+        <div class="info-box" style="margin-top: 30px;">
+            <strong>📖 अधिक माहितीसाठी:</strong><br>
+            <a href="FIXES-APPLIED.md" style="color: #2196f3;">FIXES-APPLIED.md</a> पहा
+        </div>
+    </div>
+
+    <script>
+        // Check if page can scroll
+        window.addEventListener('load', function() {
+            const canScroll = document.body.scrollHeight > window.innerHeight;
+            console.log('Can scroll:', canScroll);
+            console.log('Body overflow:', getComputedStyle(document.body).overflow);
+        });
+    </script>
+</body>
+</html>

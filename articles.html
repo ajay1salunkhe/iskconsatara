@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>लेख - इस्कॉन सातारा</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>इस्कॉन सातारा</h1>
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">मुख्यपृष्ठ</a></li>
+                    <li><a href="index.html#about">आमच्याबद्दल</a></li>
+                    <li><a href="index.html#darshan">दर्शन</a></li>
+                    <li><a href="festivals.html">उत्सव</a></li>
+                    <li><a href="events.html">कार्यक्रम</a></li>
+                    <li><a href="activities.html">उपक्रम</a></li>
+                    <li><a href="articles.html" class="active">लेख</a></li>
+                    <li><a href="index.html#contact">संपर्क</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>लेख</h1>
+            <p>आध्यात्मिक ज्ञान आणि शिकवणी</p>
+        </div>
+    </section>
+
+    <!-- Categories Filter -->
+    <section class="articles-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">सर्व लेख</button>
+                <button class="filter-btn" data-category="philosophy">तत्त्वज्ञान</button>
+                <button class="filter-btn" data-category="lifestyle">जीवनशैली</button>
+                <button class="filter-btn" data-category="practice">साधना</button>
+                <button class="filter-btn" data-category="stories">कथा</button>
+                <button class="filter-btn" data-category="bhagavad-gita">भगवद्गीता</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="articles-page">
+        <div class="container">
+            <div class="articles-grid-page">
+                <!-- Philosophy Articles -->
+                <article class="article-card-page" data-category="philosophy">
+                    <div class="article-image">
+                        <img src="images/article1.jpg" alt="आत्म्याला समजून घेणे" onerror="this.src='https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&h=400&fit=crop'">
+                        <span class="article-category">तत्त्वज्ञान</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>आत्म्याला समजून घेणे</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> ५ फेब्रुवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> ५ मिनिटे वाचन</span>
+                        </div>
+                        <p>भगवद्गीतेत वर्णन केल्याप्रमाणे आत्म्याचे शाश्वत स्वरूप जाणून घ्या. आत्मा अविनाशी, शाश्वत आणि देहापेक्षा वेगळा आहे...</p>
+                        <a href="article-atma.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card-page" data-category="philosophy">
+                    <div class="article-image">
+                        <img src="images/article-karma.jpg" alt="कर्म सिद्धांत" onerror="this.src='https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop'">
+                        <span class="article-category">तत्त्वज्ञान</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>कर्म सिद्धांत समजून घेणे</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> ३ फेब्रुवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> ७ मिनिटे वाचन</span>
+                        </div>
+                        <p>प्रत्येक कृतीचा परिणाम असतो. कर्म सिद्धांत कसा कार्य करतो आणि आपण कसे चांगले कर्म करू शकतो...</p>
+                        <a href="article-karma.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Lifestyle Articles -->
+                <article class="article-card-page" data-category="lifestyle">
+                    <div class="article-image">
+                        <img src="images/article2.jpg" alt="शाकाहाराचे फायदे" onerror="this.src='https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop'">
+                        <span class="article-category">जीवनशैली</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>शाकाहाराचे आध्यात्मिक आणि आरोग्य फायदे</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> १ फेब्रुवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> ६ मिनिटे वाचन</span>
+                        </div>
+                        <p>शाकाहारी जीवनशैलीचे आध्यात्मिक, आरोग्य आणि पर्यावरणीय फायदे. अहिंसा आणि करुणेचे महत्त्व...</p>
+                        <a href="article-vegetarian.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card-page" data-category="lifestyle">
+                    <div class="article-image">
+                        <img src="images/article-meditation.jpg" alt="ध्यान" onerror="this.src='https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop'">
+                        <span class="article-category">जीवनशैली</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>दैनंदिन जीवनात ध्यान</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> २८ जानेवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> ५ मिनिटे वाचन</span>
+                        </div>
+                        <p>व्यस्त जीवनात ध्यान कसे समाविष्ट करावे. मानसिक शांती आणि एकाग्रता वाढवण्याचे मार्ग...</p>
+                        <a href="article-meditation.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Practice Articles -->
+                <article class="article-card-page" data-category="practice">
+                    <div class="article-image">
+                        <img src="images/article3.jpg" alt="जपाची शक्ती" onerror="this.src='https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop'">
+                        <span class="article-category">साधना</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>हरे कृष्ण महामंत्राची शक्ती</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> २५ जानेवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> ८ मिनिटे वाचन</span>
+                        </div>
+                        <p>हरे कृष्ण महामंत्राच्या जपाचे परिवर्तनकारी परिणाम. कसे सुरुवात करावी आणि नियमित सराव कसा करावा...</p>
+                        <a href="article-japa.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card-page" data-category="practice">
+                    <div class="article-image">
+                        <img src="images/article-puja.jpg" alt="घरगुती पूजा" onerror="this.src='https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&h=400&fit=crop'">
+                        <span class="article-category">साधना</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>घरी देवता पूजा कशी करावी</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> २० जानेवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> १० मिनिटे वाचन</span>
+                        </div>
+                        <p>घरी देवता स्थापना आणि दैनंदिन पूजा विधी. आवश्यक साहित्य आणि पूजा पद्धती...</p>
+                        <a href="article-puja.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Stories -->
+                <article class="article-card-page" data-category="stories">
+                    <div class="article-image">
+                        <img src="images/article-prahlad.jpg" alt="प्रह्लाद कथा" onerror="this.src='https://images.unsplash.com/photo-1533727937480-da3a97967e95?w=600&h=400&fit=crop'">
+                        <span class="article-category">कथा</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>भक्त प्रह्लादाची कथा</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> १५ जानेवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> १२ मिनिटे वाचन</span>
+                        </div>
+                        <p>भक्त प्रह्लादाची प्रेरणादायी कथा. अडचणींमध्येही भगवंतावरील अटूट विश्वास...</p>
+                        <a href="article-prahlad.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Bhagavad Gita -->
+                <article class="article-card-page" data-category="bhagavad-gita">
+                    <div class="article-image">
+                        <img src="images/article-gita.jpg" alt="भगवद्गीता" onerror="this.src='https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&h=400&fit=crop'">
+                        <span class="article-category">भगवद्गीता</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>भगवद्गीता: जीवनाचा मार्गदर्शक</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> १० जानेवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> १५ मिनिटे वाचन</span>
+                        </div>
+                        <p>भगवद्गीतेचे मुख्य संदेश आणि आधुनिक जीवनात त्यांचा उपयोग. १८ अध्यायांचे सारांश...</p>
+                        <a href="article-gita.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="article-card-page" data-category="bhagavad-gita">
+                    <div class="article-image">
+                        <img src="images/article-gita-chapter2.jpg" alt="भगवद्गीता अध्याय २" onerror="this.src='https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop'">
+                        <span class="article-category">भगवद्गीता</span>
+                    </div>
+                    <div class="article-content-page">
+                        <h3>भगवद्गीता अध्याय २: सांख्ययोग</h3>
+                        <div class="article-meta">
+                            <span><i class="far fa-calendar"></i> ५ जानेवारी २०२६</span>
+                            <span><i class="far fa-clock"></i> २० मिनिटे वाचन</span>
+                        </div>
+                        <p>आत्म्याचे ज्ञान आणि कर्मयोग. दुसऱ्या अध्यायातील महत्त्वाचे श्लोक आणि त्यांचे स्पष्टीकरण...</p>
+                        <a href="article-gita-chapter2.html" class="read-more-btn">संपूर्ण वाचा <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>इस्कॉन सातारा</h3>
+                    <p>भगवान कृष्णाच्या शिकवणीद्वारे प्रेम आणि भक्तीचा संदेश प्रसारित करणे</p>
+                </div>
+                <div class="footer-col">
+                    <h3>संपर्क</h3>
+                    <p><i class="fas fa-phone"></i> +९१-XXXX-XXXXXX</p>
+                    <p><i class="fas fa-envelope"></i> info@iskconsatara.org</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; २०२६ इस्कॉन सातारा. सर्व हक्क राखीव.</p>
+                <p class="mantra">हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे | हरे राम हरे राम राम राम हरे हरे</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="articles-filter.js"></script>
+</body>
+</html>

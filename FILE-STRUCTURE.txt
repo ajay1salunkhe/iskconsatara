@@ -1,0 +1,265 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║         ISKCON SATARA WEBSITE - FILE STRUCTURE                ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📁 ISKCON-SATARA-WEBSITE/
+│
+├── 🌐 WEBSITE FILES (Main)
+│   ├── index.html                    ← Homepage with landing screen
+│   ├── festivals.html                ← Festivals dedicated page
+│   ├── events.html                   ← Events dedicated page
+│   ├── activities.html               ← Activities (Prerana & Chetana)
+│   ├── articles.html                 ← Articles with category filters
+│   ├── article-atma.html             ← Sample article page
+│   ├── styles.css                    ← All styles (responsive)
+│   ├── script.js                     ← All JavaScript (with localStorage)
+│   ├── articles-filter.js            ← Article filtering functionality
+│   ├── robots.txt                    ← SEO robots file
+│   └── sitemap.xml                   ← SEO sitemap
+│
+├── 🖼️ IMAGES FOLDER
+│   └── images/
+│       ├── landing-bg.jpg            (1920x1080) Landing background
+│       ├── hero-bg.jpg               (1920x600)  Hero section
+│       ├── temple.jpg                (800x600)   Temple photo
+│       ├── janmashtami.jpg           (600x400)   Festival
+│       ├── gaura-purnima.jpg         (600x400)   Festival
+│       ├── rathyatra.jpg             (600x400)   Festival
+│       ├── radhashtami.jpg           (600x400)   Festival
+│       ├── diwali.jpg                (600x400)   Festival
+│       ├── govardhan-puja.jpg        (600x400)   Festival
+│       ├── article1.jpg              (600x400)   Article
+│       ├── article2.jpg              (600x400)   Article
+│       ├── article3.jpg              (600x400)   Article
+│       ├── article-karma.jpg         (600x400)   Article
+│       ├── article-meditation.jpg    (600x400)   Article
+│       ├── article-puja.jpg          (600x400)   Article
+│       ├── article-prahlad.jpg       (600x400)   Article
+│       ├── article-gita.jpg          (600x400)   Article
+│       └── article-gita-chapter2.jpg (600x400)   Article
+│
+├── 📚 DOCUMENTATION (English)
+│   ├── OPEN-ME-FIRST.html            ← START HERE! Visual summary
+│   ├── START-HERE.txt                ← Quick start guide
+│   ├── FINAL-STATUS.md               ← Complete status report
+│   ├── FIXES-APPLIED.md              ← Detailed fix documentation
+│   ├── QUICK-REFERENCE.md            ← How to update content
+│   ├── NEW-FEATURES.md               ← New features documentation
+│   ├── HOW-TO-RESET-LANDING.md       ← Reset landing screen guide
+│   ├── CHANGES-SUMMARY.txt           ← Summary of all changes
+│   ├── NEW-PAGES-SUMMARY.md          ← New pages documentation
+│   ├── PAGES-QUICK-REFERENCE.txt     ← Pages quick reference
+│   ├── PROJECT-SUMMARY.md            ← Project overview
+│   ├── DEPLOYMENT-CHECKLIST.md       ← Deployment guide
+│   ├── QUICK-START.md                ← Quick start guide
+│   ├── README.md                     ← Main readme
+│   └── image-placeholders.txt        ← Image requirements
+│
+├── 📚 DOCUMENTATION (Marathi)
+│   ├── येथे-सुरुवात-करा.html         ← मराठी visual summary
+│   ├── SUMMARY-MARATHI.txt           ← मराठी summary
+│   ├── QUICK-START-MARATHI.txt       ← मराठी quick start
+│   └── README-MARATHI.md             ← मराठी readme
+│
+├── 🧪 TESTING & DEVELOPMENT
+│   ├── TEST-FIXES.html               ← Testing page
+│   ├── seo-enhancements.html         ← SEO testing
+│   ├── site-preview.html             ← Site preview
+│   ├── config-template.js            ← Config template
+│   └── generate-images.py            ← Image generator script
+│
+└── 🗂️ OTHER
+    └── .vscode/                      ← VS Code settings
+
+───────────────────────────────────────────────────────────────
+
+📊 FILE STATISTICS:
+
+Total Files: 50+
+Website Pages: 6
+Images: 18
+Documentation: 20+
+Scripts: 3
+
+───────────────────────────────────────────────────────────────
+
+🎯 IMPORTANT FILES TO KNOW:
+
+START HERE:
+  1. OPEN-ME-FIRST.html        → Visual summary (OPEN THIS!)
+  2. येथे-सुरुवात-करा.html      → मराठी summary
+
+MAIN WEBSITE:
+  1. index.html                → Homepage
+  2. styles.css                → All styles
+  3. script.js                 → All JavaScript
+
+DOCUMENTATION:
+  1. QUICK-REFERENCE.md        → How to update content
+  2. NEW-FEATURES.md           → New features guide
+  3. HOW-TO-RESET-LANDING.md   → Reset landing screen
+
+IMAGES:
+  1. images/                   → All website images
+  2. generate-images.py        → Regenerate images
+
+───────────────────────────────────────────────────────────────
+
+🔍 FIND FILES BY PURPOSE:
+
+Want to update content?
+  → QUICK-REFERENCE.md
+
+Want to understand fixes?
+  → FIXES-APPLIED.md
+
+Want to see new features?
+  → NEW-FEATURES.md
+
+Want to reset landing screen?
+  → HOW-TO-RESET-LANDING.md
+
+Want complete status?
+  → FINAL-STATUS.md
+
+Want quick summary?
+  → CHANGES-SUMMARY.txt
+
+Want Marathi documentation?
+  → येथे-सुरुवात-करा.html
+  → SUMMARY-MARATHI.txt
+
+───────────────────────────────────────────────────────────────
+
+📝 FILE DESCRIPTIONS:
+
+HTML FILES:
+  • index.html              - Main homepage with landing screen
+  • festivals.html          - All festivals with details
+  • events.html            - Weekly, monthly, special events
+  • activities.html        - Prerana, Chetana, other activities
+  • articles.html          - Articles with category filters
+  • article-atma.html      - Sample full article page
+
+CSS FILES:
+  • styles.css             - All styles, responsive design
+
+JAVASCRIPT FILES:
+  • script.js              - Main functionality, localStorage
+  • articles-filter.js     - Article category filtering
+
+IMAGE FILES:
+  • images/*.jpg           - 18 placeholder images
+
+DOCUMENTATION FILES:
+  • *.md                   - Markdown documentation
+  • *.txt                  - Text documentation
+  • *.html                 - Visual documentation
+
+UTILITY FILES:
+  • generate-images.py     - Python script to create images
+  • robots.txt            - SEO robots configuration
+  • sitemap.xml           - SEO sitemap
+
+───────────────────────────────────────────────────────────────
+
+🎨 FEATURES BY FILE:
+
+index.html:
+  ✓ Landing screen (with localStorage)
+  ✓ Hero section
+  ✓ Daily quotes
+  ✓ Darshan schedule
+  ✓ Festivals gallery
+  ✓ Events preview
+  ✓ Activities preview
+  ✓ YouTube videos
+  ✓ Articles preview
+  ✓ Donation section
+  ✓ Contact form
+  ✓ Google Maps
+
+festivals.html:
+  ✓ 6 major festivals
+  ✓ Detailed information
+  ✓ Images and dates
+  ✓ Highlights
+  ✓ Contact buttons
+
+events.html:
+  ✓ Weekly events
+  ✓ Monthly events
+  ✓ Special events
+  ✓ Detailed schedules
+  ✓ Event categories
+
+activities.html:
+  ✓ Prerana (boys)
+  ✓ Chetana (girls)
+  ✓ Educational programs
+  ✓ Social service
+  ✓ Devotional activities
+
+articles.html:
+  ✓ Category filters
+  ✓ 8 sample articles
+  ✓ Multiple categories
+  ✓ Read more links
+
+script.js:
+  ✓ Landing screen logic
+  ✓ localStorage (remember entry)
+  ✓ Mobile navigation
+  ✓ Smooth scrolling
+  ✓ Random quotes
+  ✓ Form handling
+  ✓ Animations
+
+styles.css:
+  ✓ All page styles
+  ✓ Responsive design
+  ✓ Mobile breakpoints
+  ✓ Animations
+  ✓ Color scheme
+
+───────────────────────────────────────────────────────────────
+
+🚀 DEPLOYMENT FILES:
+
+Required for hosting:
+  ✓ index.html
+  ✓ festivals.html
+  ✓ events.html
+  ✓ activities.html
+  ✓ articles.html
+  ✓ article-atma.html
+  ✓ styles.css
+  ✓ script.js
+  ✓ articles-filter.js
+  ✓ images/ (folder with all images)
+  ✓ robots.txt
+  ✓ sitemap.xml
+
+Optional (for reference):
+  • All documentation files
+  • generate-images.py
+
+───────────────────────────────────────────────────────────────
+
+✨ SUMMARY:
+
+Total Website Files: 11
+Total Images: 18
+Total Documentation: 20+
+Total Size: ~500KB
+
+Status: ✅ Production Ready
+All Features: ✅ Working
+All Issues: ✅ Fixed
+New Features: ✅ Added
+
+हरे कृष्ण! 🙏
+
+═══════════════════════════════════════════════════════════════
